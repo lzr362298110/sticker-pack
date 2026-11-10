@@ -13,13 +13,13 @@
 | 按格返修 | 按 `02-R2C3` 这样的编号修改指定格，保留其余格的画面与文字 |
 | 切图与 GIF | 静态定稿后裁切 240×240 PNG，逐格交付 GIF 提示词。回传的 GIF 可再等比例整理为 240×240 |
 
-正式生成新图只需要**角色原图和一条完整提示词**。风格参考图用于分析，其画法会完整写进提示词。没有风格参考时，可以从公开版内置的[文字风格卡](sticker-pack/assets/references/catalog.md)选。
+正式生成新图只需要**角色原图和一条完整提示词**。风格参考图用于分析，其画法会完整写进提示词。没有风格参考时，可以从内置的 [51 张参考图](sticker-pack/assets/references/catalog.md) 里选。
 
 ## 快速上手
 
 ### Codex
 
-1. 下载仓库或 Release 的 ZIP，解压。
+1. [下载与本地版一致的完整 ZIP](https://github.com/lzr362298110/sticker-pack/releases/latest)，解压。
 2. 把整个 `sticker-pack` 文件夹放入项目的 `.agents/skills/`。想跨项目调用时，可以放到个人的 `~/.agents/skills/`。
 3. 在 Codex 里选择 `$sticker-pack`，附上角色原图并发送需求。
 
